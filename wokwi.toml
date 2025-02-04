@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = 'build\embarcatechSemaforo.uf2'
+elf = 'build\embarcatechSemaforo.elf'

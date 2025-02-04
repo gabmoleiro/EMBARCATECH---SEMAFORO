@@ -13,6 +13,18 @@ Para executar este projeto, é necessário:
   - Pico SDK
   - Simulador Wokwi
 
+## Configuração do Hardware
+
+Os LEDs devem ser conectados aos GPIOs da Raspberry Pi Pico W da seguinte forma:
+
+| Cor do LED  | GPIO |
+|-------------|------|
+| Vermelho    | 11   |
+| Amarelo     | 12   |
+| Verde       | 13   |
+
+Cada LED deve ser ligado em série com um resistor de 330Ω.
+
 ## Instalação e Execução
 
 1. Clone este repositório:
