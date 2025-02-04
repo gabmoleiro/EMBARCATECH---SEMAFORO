@@ -34,9 +34,21 @@ Cada LED deve ser ligado em série com um resistor de 330Ω.
    ```
 
 2. Configure o ambiente de desenvolvimento:
-   - Instale o [Pico SDK](https://github.com/gabmoleiro/EMBARCATECH---SEMAFORO.git)
+   - Instale o [Pico SDK](https://github.com/raspberrypi/pico-sdk)
    - Configure o VS Code para compilar códigos C para o Raspberry Pi Pico
    - Integre o simulador Wokwi ao VS Code
+
+3. Compile o código:
+   ```sh
+   mkdir build
+   cd build
+   cmake ..
+   make
+   ```
+   
+4. Execute a simulação no Wokwi, se preferir:
+   - Abra o projeto no Wokwi e carregue o código-fonte
+   - Inicie a simulação
 
 ## Funcionamento
 
@@ -45,4 +57,3 @@ Cada LED deve ser ligado em série com um resistor de 330Ω.
 - Após mais 3 segundos, o LED amarelo apaga e o LED verde acende.
 - O ciclo se repete indefinidamente.
 - A cada segundo, uma mensagem é impressa no terminal serial.
-
