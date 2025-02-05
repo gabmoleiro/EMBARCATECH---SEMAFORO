@@ -26,18 +26,16 @@ Os LEDs devem ser conectados aos GPIOs da Raspberry Pi Pico W da seguinte forma:
 Cada LED deve ser ligado em série com um resistor de 330Ω.
 
 ## Instalação e Execução
-
+ 
 1. Clone este repositório:
    ```sh
    git clone https://github.com/gabmoleiro/EMBARCATECH---SEMAFORO.git
    cd EMBARCATECH---SEMAFORO
    ```
-
 2. Configure o ambiente de desenvolvimento:
-   - Instale o [Pico SDK](https://github.com/raspberrypi/pico-sdk)
+   - Instale o Pico SDK
    - Configure o VS Code para compilar códigos C para o Raspberry Pi Pico
-   - Integre o simulador Wokwi ao VS Code
-
+   - Integre o simulador BitDogLab ao VS Code
 3. Compile o código:
    ```sh
    mkdir build
@@ -45,11 +43,10 @@ Cada LED deve ser ligado em série com um resistor de 330Ω.
    cmake ..
    make
    ```
-   
-4. Execute a simulação no Wokwi, se preferir:
-   - Abra o projeto no Wokwi e carregue o código-fonte
+4. Execute a simulação no BitDogLab:
+   - Abra o projeto no BitDogLab e carregue o código-fonte
    - Inicie a simulação
-
+     
 ## Funcionamento
 
 - O LED vermelho acende primeiro.
